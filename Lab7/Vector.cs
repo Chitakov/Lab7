@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lab7_1
 {
-    class Vector
+    public class Vector
     {
         public Point P1 { set; get; }
         public Point P2 { set; get; }

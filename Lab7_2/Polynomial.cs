@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lab7_2
 {
-    class Polynomial
+    public class Polynomial
     {
         private readonly double[] _coefficients;
 
@@ -99,7 +99,6 @@ namespace Lab7_2
         //  Вывод на экран многочлена
         public void PrintPolynomial()
         {
-            int temp = this._coefficients.Length;
             StringBuilder sb = new StringBuilder();
             for (int i = 0; i < this._coefficients.Length; i++)
             {   if (this[i] != 0)

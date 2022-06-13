@@ -10,10 +10,10 @@ namespace Lab7_1
     {
         static void Main(string[] args)
         {
-            Point P1 = new Point(1, 2, 15);
-            Point P2 = new Point(0, -3, 6);
-            Point P3 = new Point(-1, 10, 9);
-            Point P4 = new Point(8, -8, 19);
+            Point P1 = new Point(23, 34, 7);
+            Point P2 = new Point(1, 5, -8);
+            Point P3 = new Point(6, -5, 19);
+            Point P4 = new Point(4, 0, -21);
             
             Vector vector1 = new Vector(P1, P2);
             Vector vector2 = new Vector(P3, P4);
